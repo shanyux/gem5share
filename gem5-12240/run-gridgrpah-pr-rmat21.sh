@@ -1,0 +1,2 @@
+./build/X86/gem5.opt -d syx-grid-pr-rmat21 -r -e configs/example/se.py -n1  --caches --l2cache --l3cache --l1d_size=32kB --l1i_size=32kB --l2_size=256kB --l3_size=8MB --mem-size=4GB -c /home/syx/GridGraph/bin/pagerank -o " /ssd/ssd2/syx/generate_data/rmat21dir 4 2 "
+./build/X86/gem5.opt -d syx-grid-pr-rmat21-sort -r -e configs/example/se.py -n1 --caches --l2cache --l3cache --l1d_size=32kB --l1i_size=32kB --l2_size=256kB --l3_size=8MB --mem-size=4GB -c /home/syx/GridGraph/bin/pagerank -o " /ssd/ssd2/syx/generate_data/rmat21_sortdir 4 2 "

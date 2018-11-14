@@ -1,0 +1,2 @@
+./build/X86/gem5.opt -d syx-grid-cc-rmat21 -r -e configs/example/se.py -n1  --caches --l2cache --l3cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l3_size=32MB --mem-size=8GB -c /home/syx/GridGraph/bin/wcc -o " /ssd/ssd2/syx/generate_data/rmat21dir 2 "
+./build/X86/gem5.opt -d syx-grid-cc-rmat21-sort -r -e configs/example/se.py -n1  --caches --l2cache --l3cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l3_size=32MB --mem-size=8GB -c /home/syx/GridGraph/bin/wcc -o " /ssd/ssd2/syx/generate_data/rmat21_sortdir 2 "
