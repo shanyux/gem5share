@@ -1,0 +1,17 @@
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7012
+0: system.remote_gdb.listener: listening for remote gdb #1 on port 7013
+0: system.remote_gdb.listener: listening for remote gdb #2 on port 7014
+0: system.remote_gdb.listener: listening for remote gdb #3 on port 7015
+info: Entering event queue @ 0.  Starting simulation...
+warn: ignoring syscall set_robust_list(...)
+warn: ignoring syscall rt_sigaction(...)
+      (further warnings will be suppressed)
+warn: ignoring syscall rt_sigprocmask(...)
+      (further warnings will be suppressed)
+warn: Attempting to open special file: /sys/devices/system/cpu. Ignoring. Simulation may take un-expected code path or be non-deterministic until proper handling is implemented.
+warn: ignoring syscall getdents(...)
+warn: ignoring syscall sched_getaffinity(...)
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+warn: Attempting to open special file: /sys/devices/system/cpu/online. Ignoring. Simulation may take un-expected code path or be non-deterministic until proper handling is implemented.
+info: Increasing stack size by one page.

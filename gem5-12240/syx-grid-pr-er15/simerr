@@ -1,0 +1,31 @@
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7013
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall set_robust_list(...)
+warn: ignoring syscall rt_sigaction(...)
+      (further warnings will be suppressed)
+warn: ignoring syscall rt_sigprocmask(...)
+      (further warnings will be suppressed)
+warn: Attempting to open special file: /sys/devices/system/cpu. Ignoring. Simulation may take un-expected code path or be non-deterministic until proper handling is implemented.
+warn: ignoring syscall getdents(...)
+warn: ignoring syscall sched_getaffinity(...)
+info: Increasing stack size by one page.
+warn: Attempting to open special file: /sys/devices/system/cpu/online. Ignoring. Simulation may take un-expected code path or be non-deterministic until proper handling is implemented.
+fatal: syscall fadvise64 (#221) unimplemented.
+Memory Usage: 4570780 KBytes

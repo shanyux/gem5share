@@ -1,0 +1,2 @@
+./build/X86/gem5.opt -d syx-bgl-cc-rmat21-new -r -e configs/example/se.py -n4 --caches --l2cache --l3cache --l1d_size=64kB --l1i_size=64kB --l2_size=1MB --l3_size=32MB --mem-size=8GB -c /home/syx/graph-study/src/bgl-shell -o " -e SCC -i /home/syx/snap/examples/concomp/rmat21.txt "
+./build/X86/gem5.opt -d syx-bgl-cc-rmat21-sort-new -r -e configs/example/se.py -n 4 --caches --l2cache --l3cache --l1d_size=64kB --l1i_size=64kB --l2_size=1MB --l3_size=32MB --mem-size=8GB -c /home/syx/graph-study/src/bgl-shell -o " -e SCC -i /home/syx/snap/examples/concomp/rmat21_sort.txt "

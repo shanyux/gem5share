@@ -1,0 +1,1 @@
+./build/X86/gem5.opt -d syx-bgl-cc-rmat21  configs/example/se.py -n 4 --caches --l2cache --mem-size=2147483648 -c ../graph-study/src/bgl-shell -o " -e SCC -i /home/syx/snap/examples/concomp/as20graph.txt "

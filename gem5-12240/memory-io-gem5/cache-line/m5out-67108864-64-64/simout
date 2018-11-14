@@ -1,0 +1,14 @@
+Redirecting stdout to m5out-67108864-64-64/simout
+Redirecting stderr to m5out-67108864-64-64/simerr
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 18 2018 22:23:26
+gem5 started Jan 26 2018 23:01:48
+gem5 executing on storage1, pid 31581
+command line: /home/syx/gem5-12240/build/X86/gem5.opt -d m5out-67108864-64-64 -r -e /home/syx/gem5-12240/configs/example/se.py --caches --l2cache --cacheline_size=64 -c cache-line.bin -o '67108864 64'
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+**** REAL SIMULATION ****
+Exiting @ tick 439681893000 because exiting with last active thread context

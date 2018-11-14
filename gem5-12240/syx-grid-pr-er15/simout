@@ -1,0 +1,10 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  9 2018 16:41:18
+gem5 started Nov 12 2018 21:56:14
+gem5 executing on storage1, pid 29560
+command line: ./build/X86/gem5.opt -d syx-grid-pr-er15 -r -e configs/example/se.py -n1 --caches --l2cache --l3cache --l1d_size=32kB --l1i_size=32kB --l2_size=256kB --l3_size=8MB --mem-size=4GB -c /home/syx/GridGraph/bin/pagerank -o ' /ssd/ssd2/syx/generate_data/er15dir 4 2 '
+
+Global frequency set at 1000000000000 ticks per second
+**** REAL SIMULATION ****

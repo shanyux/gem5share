@@ -1,0 +1,21 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 30 2018 19:18:50
+gem5 started Feb 26 2018 16:20:09
+gem5 executing on storage1, pid 30559
+command line: ./build/X86/gem5.opt -d syx-snap-cc-comlj -r -e configs/example/se.py -n 4 --caches --l2cache --mem-size=8GB -c /home/syx/snap/examples/concomp/concomp -o ' -i:/home/syx/graph-study/com-lj.ungraph.txt '
+
+Global frequency set at 1000000000000 ticks per second
+**** REAL SIMULATION ****
+Connected components. build: 16:17:18, Feb 26 2018. Time: 09:46:40 [Jan 30 2018]
+================================================================================
+Input file (-i:)=/home/syx/graph-study/com-lj.ungraph.txt
+Output file prefix (-o:)=graph
+==================================================================
+Loading...
+Graph: 3997962 nodes, 34681189 edges
+Sccs...
+
+run time: 02m07s (09:48:47)
+Exiting @ tick 127915896248000 because exiting with last active thread context

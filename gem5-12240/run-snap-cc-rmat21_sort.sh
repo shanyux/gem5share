@@ -1,0 +1,1 @@
+./build/X86/gem5.opt -d syx-snap-cc-rmat21-sort -r -e  configs/example/se.py -n 4 --caches --l2cache --mem-size=8GB -c /home/syx/snap/examples/concomp/concomp -o " -i:/home/syx/snap/examples/concomp/rmat21_sort.txt "

@@ -1,0 +1,2 @@
+./build/X86/gem5.opt -d syx-snap-cc-rmat23 -r -e configs/example/se.py -n 4 --caches --l2cache --mem-size=8GB -c /home/syx/snap/examples/concomp/concomp -o " -i:/ssd/ssd2/syx/generate_data/rmat23.txt "
+./build/X86/gem5.opt -d syx-snap-cc-rmat23-sort -r -e  configs/example/se.py -n 4 --caches --l2cache --l1d_size=2MB --l1i_size=1MB --l2_size=16MB --l3_size=64MB --mem-size=16GB -c /home/syx/snap/examples/concomp/concomp -o " -i:/ssd/ssd2/syx/generate_data/rmat23_sort.txt "

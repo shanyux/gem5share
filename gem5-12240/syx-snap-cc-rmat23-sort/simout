@@ -1,0 +1,24 @@
+Redirecting stdout to syx-snap-cc-rmat23-sort/simout
+Redirecting stderr to syx-snap-cc-rmat23-sort/simerr
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 30 2018 19:18:50
+gem5 started Nov  9 2018 16:27:02
+gem5 executing on storage1, pid 18997
+command line: ./build/X86/gem5.opt -d syx-snap-cc-rmat23-sort -r -e configs/example/se.py -n 4 --caches --l2cache --l1d_size=2MB --l1i_size=1MB --l2_size=16MB --l3_size=64MB --mem-size=16GB -c /home/syx/snap/examples/concomp/concomp -o ' -i:/ssd/ssd2/syx/generate_data/rmat23_sort.txt '
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+**** REAL SIMULATION ****
+Connected components. build: 16:17:18, Feb 26 2018. Time: 09:46:40 [Jan 30 2018]
+================================================================================
+Input file (-i:)=/ssd/ssd2/syx/generate_data/rmat23_sort.txt
+Output file prefix (-o:)=graph
+==================================================================
+Loading...
+Graph: 4982960 nodes, 132168701 edges
+Sccs...
+
+run time: 05m49s (09:52:29)
+Exiting @ tick 349710498648500 because exiting with last active thread context

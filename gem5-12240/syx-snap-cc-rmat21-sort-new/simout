@@ -1,0 +1,11 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  9 2018 16:41:18
+gem5 started Nov 14 2018 16:20:32
+gem5 executing on storage1, pid 4142
+command line: ./build/X86/gem5.opt -d syx-snap-cc-rmat21-sort-new -r -e configs/example/se.py -n 4 --caches --l2cache --l3cache --l1d_size=128kB --l1i_size=128kB --l2_size=1MB --l3_size=32MB --mem-size=8GB -c /home/syx/snap/examples/concomp/concomp -o ' -i /home/syx/snap/examples/concomp/rmat21_sort.txt '
+
+Global frequency set at 1000000000000 ticks per second
+**** REAL SIMULATION ****
+Exiting @ tick 0 because user interrupt received

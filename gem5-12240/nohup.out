@@ -1,0 +1,1 @@
+./run-snap-cc-rmat23.sh: line 1:  6236 Terminated              ./build/X86/gem5.opt -d syx-snap-cc-rmat23 -r -e configs/example/se.py -n 4 --caches --l2cache --mem-size=8GB -c /home/syx/snap/examples/concomp/concomp -o " -i:/ssd/ssd2/syx/generate_data/rmat23.txt "

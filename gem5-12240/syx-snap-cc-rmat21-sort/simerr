@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/syx/gem5-12240/src/python/m5/main.py", line 433, in main
+    exec filecode in scope
+  File "configs/example/se.py", line 60, in <module>
+    from common import CacheConfig
+  File "/home/syx/gem5-12240/configs/common/CacheConfig.py", line 46, in <module>
+    from Caches import *
+  File "/home/syx/gem5-12240/configs/common/Caches.py", line 75, in <module>
+    class L3Cache(BaseCache):
+  File "/home/syx/gem5-12240/src/python/m5/SimObject.py", line 536, in __init__
+    setattr(cls, key, val)
+  File "/home/syx/gem5-12240/src/python/m5/SimObject.py", line 637, in __setattr__
+    "Class %s has no parameter \'%s\'" % (cls.__name__, attr)
+AttributeError: Class L3Cache has no parameter 'hit_latency'

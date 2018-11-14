@@ -1,0 +1,21 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 30 2018 19:18:50
+gem5 started Feb 26 2018 16:22:07
+gem5 executing on storage1, pid 30660
+command line: ./build/X86/gem5.opt -d syx-snap-cc-soclj-sort -r -e configs/example/se.py -n 4 --caches --l2cache --mem-size=8GB -c /home/syx/snap/examples/concomp/concomp -o ' -i:/home/syx/graph-study/LiveJournal_sort.txt '
+
+Global frequency set at 1000000000000 ticks per second
+**** REAL SIMULATION ****
+Connected components. build: 16:17:18, Feb 26 2018. Time: 09:46:40 [Jan 30 2018]
+================================================================================
+Input file (-i:)=/home/syx/graph-study/LiveJournal_sort.txt
+Output file prefix (-o:)=graph
+==================================================================
+Loading...
+Graph: 4847571 nodes, 68993773 edges
+Sccs...
+
+run time: 03m04s (09:49:44)
+Exiting @ tick 184361008100000 because exiting with last active thread context

@@ -1,0 +1,19 @@
+Redirecting stdout to syx-snap-cc-rmat23/simout
+Redirecting stderr to syx-snap-cc-rmat23/simerr
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 30 2018 19:18:50
+gem5 started Nov  5 2018 14:25:06
+gem5 executing on storage1, pid 6236
+command line: ./build/X86/gem5.opt -d syx-snap-cc-rmat23 -r -e configs/example/se.py -n 4 --caches --l2cache --mem-size=8GB -c /home/syx/snap/examples/concomp/concomp -o ' -i:/ssd/ssd2/syx/generate_data/rmat23.txt '
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+**** REAL SIMULATION ****
+Connected components. build: 16:17:18, Feb 26 2018. Time: 09:46:40 [Jan 30 2018]
+================================================================================
+Input file (-i:)=/ssd/ssd2/syx/generate_data/rmat23.txt
+Output file prefix (-o:)=graph
+==================================================================
+Loading...
